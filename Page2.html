@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<title>Gaming 101</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-animate-left w3-red" style="display:none;z-index:5" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+  <a href="index.html" class="w3-bar-item w3-button">Home</a>
+  <a href="Page1.html" class="w3-bar-item w3-button w3-blue">The history of gaming</a>
+  <a href="Page2.html" class="w3-bar-item w3-button">The future of gaming</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="w3-blue">
+  <button class="w3-button w3-red w3-xxlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1>The future of gaming</h1>
+
+  </div>
+</div>
+
+<div>
+  <p>Just how often are people choosing to reach for a game controller instead of a TV remote? An overview of the numbers paints an illuminating picture. In 2019, the gaming industry generated $120 billion in revenue, and experts predict it could reach $200 billion within two years; 100 million viewers tuned in to watch players compete in the World Championship of the game League of Legends — a larger haul than the telecast of the Super Bowl; and, by 2021, it’s projected that 2.7 billion people — about one-third of the global population — will be gamers.</p>
+  <p>For decades, virtual reality has tantalized gamers with the prospect of a fully immersive experience. But the technology has yet to deliver on this promise.
+
+    Tech companies are looking to change that. Huge firms like Facebook, Google, Microsoft and Sony — and startups like Magic Leap — have invested considerable resources to develop VR hardware and games.
+    
+    VR is still a niche category when compared to the rest of the gaming industry. And despite its buzzy status, it continues to give many consumers pause.
+    
+    “Right now we’re sort of in this trough of disillusionment about VR,” Kevin Mack, a VR game developer, told Built In. “There was a lot of hype around it in 2015 and 2016, and then the whole world sort of got butt-hurt that their first-generation VR headset didn’t instantly morph into the Holodeck.”
+    
+    When it comes to VR, we’re still in the early days. There are promising developments on the horizon. But first, a few challenges need to be addressed.</p>
+    <p>For the future of consumer VR to be more than a niche hobby for people with high disposable income — or a once-in-a-while theme park experience — several hardware challenges will need to be overcome. Namely, the bulky headsets.
+
+      Most VR headsets weigh well over a pound and must be strapped tightly to a user’s face. I t’s not terribly comfortable. You get sweaty and after a half-hour of play your energy is sapped.
+      
+      This experience chafes against that mode of playing which is typical of gaming enthusiasts — spending hours comfortably sunk into a couch. If VR hardware can’t align with the preferences of gamers, will it be able to survive? Until companies slim down their VR headsets — and price points — most gamers, save the early adopters and tech enthusiasts, will continue to balk.</p>
+      <img src="https://images-na.ssl-images-amazon.com/images/I/31AZvhYLyeL._AC_SY400_.jpg">
+</div>
+     
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+          
+</body>
+</html>

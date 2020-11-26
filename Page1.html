@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<title>Gaming 101</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-animate-left w3-red" style="display:none;z-index:5" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+  <a href="index.html" class="w3-bar-item w3-button">Home</a>
+  <a href="Page1.html" class="w3-bar-item w3-button w3-blue">The history of gaming</a>
+  <a href="Page2.html" class="w3-bar-item w3-button">The future of gaming</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="w3-blue">
+  <button class="w3-button w3-red w3-xxlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1>The history of gaming</h1>
+    <p><strong>In this webpage i will be writing about the history of gaming, how it started out, where it originated from and what were the first few games</strong></p>
+
+  </div>
+</div>
+  <h3>The origin of gaming and how it began</h3>
+
+  <p>Did you know, The earliest known board games are 5,000 years old and were played by the Egyptians. The Chinese invented their first known board game in 200 B.C., and, in Western Europe, they were playing Tafl (a game very similar to chess) from 400 B.C.</p>
+<img src="https://public-media.interaction-design.org/images/uploads/1d0868520bddc543edd61d29244a88fd.jpg" width="30%" >
+<p> India saw a number of games in ancient period ranging from the various dice games to other board games.The use of cubical and oblong dice was common in the Indus Valley Harappan civilization (c. 2300 BC). Archaeological excavations have found gambling dice in monasteries and other Buddhist sites.The earliest textual mention of games in India is the Rig-Veda's mention of the use of dice (c. 1000 BC). Texts such as the Mahabharata indicate that dice games were popular with Kings and royalty, and also had ceremonial purposes. Cowry shells were also widely used.</p>
+<div class="w3-center">
+<img src="Chess.JPG">
+</div>     
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+          
+</body>
+</html>

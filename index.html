@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<title>Gaming 101</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-animate-left w3-red" style="display:none;z-index:5" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+  <a href="index.html" class="w3-bar-item w3-button">Home</a>
+  <a href="Page1.html" class="w3-bar-item w3-button w3-blue">The history of gaming</a>
+  <a href="Page2.html" class="w3-bar-item w3-button">The future of gaming</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="w3-blue">
+  <button class="w3-button w3-red w3-xxlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1>Home page</h1>
+    <p>On my website today you will be learning everything about gaming!</p>
+  </div>
+</div>
+
+<div class="w3-container w3-center">
+    <img src="https://cdn.vox-cdn.com/thumbor/mzLxakOdU-zxagxZHNgUiEkpe6M=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19173830/acastro_190904_3643_gaming_gear_package_centered.jpg" alt="Gaming controller with old style video games behind it" width="25%" >
+    <p>I will be trying to inform you in the best way i can, in my knowledge of gaming. To start off, the definition of gaming is "the action or practice of playing video games." I myself am quite a fond of the entire aspect of gaming and how it is played out in society. Some examples of famous games would be Minecraft, Watch dogs, CS:GO, GTA V and many more. I started my experience back in grade 6 when i started playing COC (clash of clans).</p> 
+     <p> In my second weblink i will be writing about the history of gaming and what it used to be.</p>
+     <p> My third weblink will  be informing on what could be the future of gaming and what we should be expecting.</p>
+</div>
+     
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+          
+
+
+
+</body>
+</html>
